@@ -6,6 +6,10 @@ Spring Boot REST API for managing car reviews with MySQL persistence and a JWT-e
 
 This project is a companion microservice for CarQuest. It stores and manages review records for cars and exposes CRUD-style endpoints under `/review`. It is designed to run alongside CarQuest (typically on port `8081`) so the car service can retrieve or submit reviews.
 
+## Deprecation Notice
+
+This standalone repository is **deprecated**. The same review service source is now included inside `byte2code/carquest-api` under the `review-service/` folder. This repo is kept only for history.
+
 ## Concepts and Features Covered
 
 - Spring Boot REST API setup
@@ -86,4 +90,3 @@ Example request body:
 
 - Suggested repository description: `Spring Boot REST API for managing car reviews with MySQL persistence and CRUD endpoints (CarQuest companion service).`
 - Suggested topics: `java`, `java-17`, `spring-boot`, `spring-security`, `spring-data-jpa`, `mysql`, `rest-api`, `review-service`, `carquest`, `microservices`, `maven`, `learning-project`, `portfolio-project`
-
